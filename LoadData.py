@@ -15,3 +15,5 @@ def load_data():
 
     print("\nProduct preview:")
     print(product.head())
+
+    return customer, sales, product
